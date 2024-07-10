@@ -11,7 +11,7 @@ namespace Day4Demo
     {
 
         public string name; // not initialised. by default NULL
-        public int count;
+        public int count = 100;
         public void CheckName()
         {
             try 
